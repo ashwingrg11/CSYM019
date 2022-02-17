@@ -1,0 +1,33 @@
+* {
+  font-family: Arial;
+}
+div.container {
+  width:  60%;
+  margin:  50px auto;
+  border:  1px solid #aeaeae;
+  padding:  20px;
+}
+div.container > h1 {
+  border-top:  1px solid black;
+  border-bottom:  1px solid black;
+  padding:  20px 0;
+}
+div.container > ul.course-items {
+  list-style: none;
+}
+div.container > ul.course-items li {
+  padding: 10px 0;
+  margin-left:  -40px;
+}
+ol.all-modules {
+  margin-left:  -20px;
+}
+ol.all-modules li {
+  padding:  10px 0;
+}
+ol.all-modules li a {
+  text-decoration: none;
+
+  /*color:  black;*/
+
+}

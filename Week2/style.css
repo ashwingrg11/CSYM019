@@ -1,0 +1,16 @@
+section.part1 > h2 {
+  color: red;
+}
+section.part1 > p {
+  color: #fff;
+  background-color: #000;
+}
+section.part2 > p {
+  background-color: darkred;
+}
+section.part2 > h2, 
+section.part2 > p, 
+section.part3 p, 
+section.part4 > p {
+  color: green;
+}
