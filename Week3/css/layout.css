@@ -1,0 +1,67 @@
+div#first-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:  "header header header"
+                        "nav main aside"
+                        "footer footer footer";
+}
+header {
+  background-color: blue;
+  grid-area: header;
+}
+nav {
+  background-color: yellow;
+  grid-area: nav;
+}
+main {
+  background-color: darkblue;
+  grid-area: main;
+}
+aside {
+  background-color: pink;
+  grid-area: aside;
+}
+footer {
+  background-color: green;
+  grid-area: footer;
+}
+
+/** second layout- a. **/
+div#second-container {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:  "header header"
+                        "nav nav"
+                        "main aside"
+                        "footer footer";
+}
+/** third layout- b. **/
+div#third-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: auto;
+  grid-template-areas:  "header header"
+                        "nav main"
+                        "footer footer";
+}
+/** fourth layout- c. **/
+div#fourth-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas:  "header header"
+                        "nav nav"
+                        "main aside"
+                        "footer footer";
+}
+/** fifth layout- d. **/
+div#fifth-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas:  "header header nav nav"
+                        "main main main aside"
+                        "footer footer footer footer";
+}
