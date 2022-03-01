@@ -65,3 +65,14 @@ div#fifth-container {
                         "main main main aside"
                         "footer footer footer footer";
 }
+
+ul.first-list, ul.third-list, ul.fourth-list {
+  margin: 0;
+  padding: 20px 0;
+}
+ul.first-list li, ul.third-list li, ul.fourth-list li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  width: calc(99%/3);
+}
