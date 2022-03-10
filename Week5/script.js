@@ -59,10 +59,13 @@ function animateCircle() {
   var circleElm = document.getElementById('circle');
   var positionLeft = circleElm.offsetLeft;
   var positionTop = circleElm.offsetTop;
+  if (keyCode == 32) {
+    clearInterval(timer);
+  }
   if (positionLeft >= 0 && keyCode == 37) { //left
     circleElm.style.left = positionLeft - 1 +'px';
   }
-  else if(positionLeft <= 1600 && keyCode == 39) { //right
+  else if(keyCode == 39) { //right
     circleElm.style.left = positionLeft + 1 +'px';
   }
   else if (positionTop >= 0 && keyCode == 38) { //up
